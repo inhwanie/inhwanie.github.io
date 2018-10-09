@@ -1,0 +1,37 @@
+h1{
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+#title{
+    text-align: center;
+}
+h2{
+    color: purple;
+    
+}
+
+p{
+    color: orange;
+}
+
+p a{
+    color: green;
+}
+
+#p1{
+    color: blue;
+}
+
+#p1{
+    color: aqua; /*last css wins */
+}
+
+#p2{
+    color: skyblue;
+}
+
+.tacos{
+    font-size: 72px;
+}
