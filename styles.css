@@ -1,37 +1,67 @@
-h1{
+body{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+}
+h1 h4{
     color: black;
     font-family: 'Amatic SC', cursive;
-    
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 #title{
     text-align: center;
 }
-h2{
-    color: purple;
-    
+
+.jumbotron{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -10rem;
 }
 
-p{
-    color: orange;
+.space{
+    padding: 10px;
 }
 
-p a{
-    color: green;
+.space2{
+    padding: 3px;
 }
 
-#p1{
-    color: blue;
+.lead{
+    font-weight: bold;
 }
 
-#p1{
-    color: aqua; /*last css wins */
+.navbar{
+    padding: 0rem 0rem;
 }
 
-#p2{
-    color: skyblue;
+.shops{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.shops1{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
 }
 
-.tacos{
-    font-size: 72px;
+.ingredients{
+    color: black;
+    font-size: 12px;
+}
+
+.about{
+    color: black;
+    font-size: 15px;
 }

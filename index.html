@@ -1,53 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html>
-    <head> <!-- doesnt show up on the page -->
-        <title>Inhwan's website</title>
-        <link rel="stylesheet" href="styles.css">
-
-    </head>
-    <body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- importing font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Julius+Sans+One" rel="stylesheet">
+    <!-- Link to my own stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importing icons from front awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         
-        
-        <h1 id="title">Welcome to puppy barn!</h1>
+    
+    <title>Bouchon</title>
+    
+  </head>
 
-        <img src="dog_background.jpg">
-        <p id="p1" class="tacos">Isn't it awesome?</h5> <!--block element; can only have 1 id per page so use class if you want to use it more --> 
-        <p id="p2" class="tacos">Isn't it <em>awesome?</em></p> <!--*in line element--> 
-        <img src = "lion_1.png" width="350" height="250">
-        <p><a href = "http://www.google.com">internet</a></p> <!--a is attribute-->
+  <body>
 
-        <div class="col">
-                <h2>2dfsafdsafdfasdfdsadfsafdsafdfasdf</h2>
+    <div class="jumbotron">
+
+        <nav class="navbar navbar-light" style="background-color: transparent;">
+            <a class="navbar-brand" href="index.html" style="color: orange;">Bouchon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="recipes.html" style="color: white;"> Recipes! <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" style="color: white;"> About</a>
+                    </li>
+                </ul>
+                                    
+            </div>
+            
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
                 
+                </div>
+                <div class="col-sm-4 text-center" style="color: white; font-size: 35px; font-family: 'Julius Sans One', sans-serif;">
+                Bouchon
+                </div>
+                <div class="col-sm-4">
+                
+                </div>
+            </div>
         </div>
-        <ul>
-            <li>Puppies</li>
-            <li>Kittens</li>
-        </ul>
 
-        <ol>
-            <li>Puppies</li>
-            <li>Kittens</li>
-        </ol>
+        <p class="space"></p>
+        <p class="space"></p>
+        <p class="space"></p>
 
-        <table>
-            <tr>
-            <th>Product</th>
-            <th>Price</th>
-            </tr>
-            <tr>
-            <td>Plate</td>
-            <td>$1900000</td>
-            </tr>
-            <tr>
-            <td>Fork</td>
-            <td>$4</td>
-            </tr>
-        </table>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p class="lead">Welcome to Bouchon</p>
+                    <p>A thoughtful expression of modern craft through good food and warm experiences.</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">  
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div>
+        
+        <p class="space"></p>
+        <p class="space"></p>
+        <p class="space"></p>
 
-        <p>
-            <a href="whatever.html">Go to my awesome second page</a>
-        </p>
-    </body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-1">
+                    <p class="shops">New York</p>
+                    <p class="shops1">1 location <i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-sm-1">
+                    <p class="shops">Chicago</p>
+                    <p class="shops1">3 location <i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-sm-1">  
+                    <p class="shops">San Francisco</p>
+                    <p class="shops1">2 location <i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="col-sm-7">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <p style="color: black; font-weight: bold">Handcrafted, Artisan Pastries</p>
+                <img src="cake.png" alt="" style="height: 158px;">
+                <p></p>
+                <p style="color: black">Our pastries are baked fresh using organic ingredients at our local store daily</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <p style="color: black; font-weight: bold">Find a Bouchon store near you</p>
+                <img src="storelocation.png" alt=""> 
+                <p></p>
+                <p style="color: black">We have stores in New York, Chicago, and San Francisco</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <p style="color: black; font-weight: bold">Learn how to bake in our kitchen</p> 
+                <img src="classes.png" alt="">  
+                <p></p>
+                <p style="color: black">We hold public classes for everyone to learn how to bake every Mondays and Thursdays</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-8 text-left">
+                        <hr class="my-4">
+                    <img src="coffee.jpg" alt="" style="width: 99.9%">
+                </div>
+                <div class="col-sm-4 text-center">
+                        <hr class="my-4">
+                    <p style="color: black; font-weight: bold">Our Partner</p>
+                    <p style="color: #01a1dd">Blue Bottle Coffee</p>
+                    <img src="bbc.png" alt="" style="height: 20%">
+                    <p class="space"></p>
+                    <p style="color: black; line-height: 2">Customers at Bouchon came to us for the highest quality bread and pastry, but our coffee program didn't match. Together with Blue Bottle Coffee we are providing coffee that matches the quality of our pastries for the best experience.</p>
+                </div>               
+            </div>
+            
+    </div>
+
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                <img src="bread2.jpg" alt="" style="width: 99%">
+                </div>
+                <div class="col-sm-4">
+                <img src="bread3.jpg" alt="" style="width: 99%">
+                </div>
+                <div class="col-sm-4">
+                <img src="bread4.jpg" alt="" style="width: 99%">
+                </div>
+            </div>
+        </div>
+
+    <div class="container-fluid">
+        <p class="space"></p>
+        <p class="space"></p>
+        <p class="space"></p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
